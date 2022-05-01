@@ -1,4 +1,4 @@
-FROM nginx:1.20.1-alpine
+FROM nginx:1.21.6-alpine
 
 RUN apk add certbot-nginx
 RUN mkdir /etc/letsencrypt
