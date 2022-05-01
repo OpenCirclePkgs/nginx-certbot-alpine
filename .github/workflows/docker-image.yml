@@ -41,6 +41,5 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          file: ./nginx-certbot-alpine
           context: .
           tags: ${{ steps.meta.outputs.tags }}
